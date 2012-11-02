@@ -5,7 +5,7 @@ CFLAGS= -ggdb -O0 -Wall
 OBJS=$(FILES:.c=.o)
 DIST= puydoyeux_vincent-Vernam
 
-Suricatac: $(OBJS)
+Vernam: $(OBJS)
 	$(CC) $(CFLAGS) $(INCLUDES) -o ./bin/$(EXEC) $(OBJS) $(LIBS)
 
 .c.o:
